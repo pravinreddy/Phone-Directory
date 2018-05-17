@@ -8,11 +8,7 @@
 
 using namespace std;
 
-
 int size;	//size of the directory
-
-
-
 
 /**
    class defined for storing the directory  
@@ -138,8 +134,6 @@ void binary_search(directory d[], int l , int h ,char *x, char *y);	//Binary sor
 
 /**
    function definition for merge sort
-   this function is return by me with using the reference of algorithum explained in this video
-   link:- "https://www.youtube.com/watch?v=TzeBrDU-JaY"
 */
 void merge_sort (directory array[], int l , int r){
    
